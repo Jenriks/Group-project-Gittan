@@ -77,7 +77,10 @@ Version: 1.0
 /*Mixin SASS file*/
 /*! TYPOGRAPHY  */
 /* --- Convert percent font sizes to em ---*/
-html, .paragraph, li, p {
+html,
+.paragraph,
+li,
+p {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   margin-top: 10px;
@@ -87,15 +90,24 @@ html, .paragraph, li, p {
   line-height: 1.25rem;
   color: black;
 }
-html strong, html b, .paragraph strong, li strong, .paragraph b, li b, p strong, p b {
+html strong,
+html b,
+.paragraph strong,
+li strong,
+.paragraph b,
+li b,
+p strong,
+p b {
   font-weight: bold;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
-i, em {
+i,
+em {
   font-style: italic;
 }
 
@@ -140,7 +152,9 @@ a {
   /*Taken fomr mixin.scss*/
   cursor: pointer;
 }
-a:hover, a:active, a:visited {
+a:hover,
+a:active,
+a:visited {
   color: #16315e;
   text-decoration: none;
 }
@@ -180,8 +194,8 @@ a:hover, a:active, a:visited {
 #header nav#menu {
   display: block;
   width: 90%;
-  border-bottom: 1px solid #CCC;
-  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
   padding-left: 5%;
   padding-right: 5%;
   /*Breakpoint for when menu can't fit the screen anymore*/
@@ -218,7 +232,7 @@ a:hover, a:active, a:visited {
     display: block !important;
     text-align: left;
     padding: 1% 0;
-    border-top: 1px solid #CCC;
+    border-top: 1px solid #ccc;
     margin: 0;
     margin-left: -5%;
     padding-left: 5%;
@@ -266,7 +280,7 @@ a:hover, a:active, a:visited {
   background-size: 15px auto;
   box-sizing: border-box;
   padding: 5px 5px 5px 30px;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   margin: 12px 0;
   box-shadow: 0 0 0 transparent;
   font-family: "Playfair Display", serif;
@@ -336,12 +350,14 @@ article#article.article-0 {
 article#article.article-0 .info p {
   color: white;
 }
-article#article.article-0 .description, article#article.article-0 .btn {
+article#article.article-0 .description,
+article#article.article-0 .btn {
   display: block !important;
   /*Don't show buttons on most articles since it takes a lot of space*/
 }
 @media (max-width: 460px) {
-  article#article.article-0 .description, article#article.article-0 .btn {
+  article#article.article-0 .description,
+  article#article.article-0 .btn {
     display: none !important;
   }
 }
@@ -360,22 +376,30 @@ article#article.article-0 img {
 article#article.article-1 {
   width: 32%;
 }
-article#article.article-2, article#article.article-3, article#article.article-4 {
-  border-top: 1px solid #CCC;
+article#article.article-2,
+article#article.article-3,
+article#article.article-4 {
+  border-top: 1px solid #ccc;
   padding-top: 10px;
   margin-top: 0;
   height: 86px;
 }
-article#article.article-2 .img-link, article#article.article-3 .img-link, article#article.article-4 .img-link {
+article#article.article-2 .img-link,
+article#article.article-3 .img-link,
+article#article.article-4 .img-link {
   float: left;
   width: 40%;
   display: block;
   clear: none;
 }
-article#article.article-2 .img-link img, article#article.article-3 .img-link img, article#article.article-4 .img-link img {
+article#article.article-2 .img-link img,
+article#article.article-3 .img-link img,
+article#article.article-4 .img-link img {
   height: 86px;
 }
-article#article.article-2 .info, article#article.article-3 .info, article#article.article-4 .info {
+article#article.article-2 .info,
+article#article.article-3 .info,
+article#article.article-4 .info {
   width: 60%;
   float: left;
   background: none;
@@ -384,17 +408,23 @@ article#article.article-2 .info, article#article.article-3 .info, article#articl
   padding: 0 0 0 3%;
   height: 86px;
 }
-article#article.article-2 .info .date-author, article#article.article-3 .info .date-author, article#article.article-4 .info .date-author {
+article#article.article-2 .info .date-author,
+article#article.article-3 .info .date-author,
+article#article.article-4 .info .date-author {
   display: none;
 }
-article#article.article-2 .info h2, article#article.article-3 .info h2, article#article.article-4 .info h2 {
+article#article.article-2 .info h2,
+article#article.article-3 .info h2,
+article#article.article-4 .info h2 {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 16px;
   line-height: 1rem;
   font-weight: 700;
 }
-article#article.article-2 .info a, article#article.article-3 .info a, article#article.article-4 .info a {
+article#article.article-2 .info a,
+article#article.article-3 .info a,
+article#article.article-4 .info a {
   color: black !important;
 }
 article#article img {
@@ -424,7 +454,8 @@ article#article .info .date-author {
 article#article .info a {
   color: white;
 }
-article#article .info .description, article#article .info .btn {
+article#article .info .description,
+article#article .info .btn {
   display: none;
 }
 article#article.hide {
@@ -522,7 +553,8 @@ body {
   html.touch *:hover {
     pointer-events: none !important;
   }
-  html, body {
+  html,
+  body {
     width: 100% !important;
     margin: 0px !important;
     overflow-x: hidden !important;
