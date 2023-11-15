@@ -57,6 +57,14 @@ body {
   overflow: hidden;
 }
 
+/* MAP-section */
+.map-wrapper {
+display: flex;
+flex-direction: column;
+padding: 2% 5% 3% 5%;
+
+}
+
 /*------FOOTER-----*/
 
 #footer {
