@@ -541,6 +541,30 @@ body {
   overflow: hidden;
 }
 
+/* Cards */
+#card-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 107px 50px 107px;
+}
+
+.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 35px;
+}
+
+.cards:nth-child(6n) {
+  margin-right: 0;
+}
+
 /*------FOOTER-----*/
 #footer {
   width: 100%;

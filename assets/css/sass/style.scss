@@ -57,6 +57,32 @@ body {
   overflow: hidden;
 }
 
+/* Cards */
+
+#card-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 10% 5%;
+}
+
+.cards-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 35px;
+	margin-bottom: 35px;
+
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.cards:nth-child(6n) {
+	margin-right: 0;
+}
+
 /*------FOOTER-----*/
 
 #footer {
