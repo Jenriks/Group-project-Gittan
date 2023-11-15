@@ -556,6 +556,12 @@ body {
   padding: 2% 0% 5% 0%;
 }
 
+.google-maps {
+  width: 100%;
+  max-width: auto;
+  align-self: fit;
+}
+
 /*------FOOTER-----*/
 #footer {
   width: 100%;
