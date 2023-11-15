@@ -57,6 +57,20 @@ body {
   overflow: hidden;
 }
 
+.our-story-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 2% 10%;
+}
+.numbers-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 0%;
+}
+.our-story {
+	padding: 5% 0%;
+}
+
 /*------FOOTER-----*/
 
 #footer {
