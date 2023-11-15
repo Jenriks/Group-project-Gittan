@@ -285,6 +285,7 @@ a:hover, a:active, a:visited {
 }
 @media screen and (max-width: 1190px) {
   #header nav#menu ul li.icon {
+    float: right;
     display: inline-block !important;
     position: absolute;
     right: 5%;
