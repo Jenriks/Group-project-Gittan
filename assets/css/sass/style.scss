@@ -53,15 +53,9 @@ body {
 
 /*------Hero picture-----*/
 .full-width-pic {
+	margin: 0%;
 	max-width: 100%;
 	height: 25%;
-	overflow: hidden;
-  
-	img {
-	  width: 100%;
-	  height: 100%;
-	  display: block;
-	}
   }
 /*------Hero picture-----*/
 
@@ -79,3 +73,4 @@ body {
 #footer {
 	width: 100%;
 }
+
