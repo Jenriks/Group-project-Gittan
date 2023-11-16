@@ -555,6 +555,8 @@ body {
 }
 
 .numbers {
+  display: flex;
+  flex-direction: column;
   padding-top: 1%;
   padding-right: 1%;
 }

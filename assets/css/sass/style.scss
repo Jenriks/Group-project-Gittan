@@ -69,6 +69,8 @@ body {
 	padding: 2% 0%;
 }
 .numbers {
+	display: flex;
+	flex-direction: column;
 	padding-top: 1%;
 	padding-right: 1%;
 }
