@@ -79,7 +79,7 @@ body {
 #card-wrapper {
 	display: flex;
 	flex-direction: column;
-	gap: 2.7%;
+	gap: 2%;
 	padding: 2% 5%;
 }
 
@@ -87,15 +87,19 @@ body {
     display: flex;
     justify-content: space-between;
 	flex-wrap: wrap;
-    gap: 2.7%;
+    gap: 2%;
 }
 
 .cards {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	width: 14%;
 }
 
+.cards img {
+	width: 14%;
+}
 
 .p-bold {
 	font: {
