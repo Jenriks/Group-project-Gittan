@@ -541,6 +541,7 @@ body {
   overflow: hidden;
 }
 
+/* Our story section */
 .our-story-wrapper {
   display: flex;
   flex-direction: column;
@@ -551,6 +552,11 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 2% 0%;
+}
+
+.numbers {
+  padding-top: 1%;
+  padding-right: 1%;
 }
 
 .our-story {
