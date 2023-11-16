@@ -9,15 +9,51 @@
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>
 <body>
+    
+    <section role="main" id="wrapper">
+        <!--Header-->
+        <header id="header" class="header">
+          <h1>Google News</h1>
+          <!--Menu-->
+          <nav id="menu" class="menu">
+            <ul>
+              <li>
+                <a href="/Offerings">What we do</a>
+              </li>
+              <li>
+                <a href="whoarewe.html"  class="current">Who we are</a>
+              </li>
+              <li>
+                <a href="/Customers">Customers</a>
+              </li>
+              <li>
+                <a href="/Careers">Career</a>
+              </li>
+              <li>
+                <a href="/Investor-relations">IR</a>
+              </li>
+              <li>
+                <a href="index.html">Latest</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+              <li class="search">
+                <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search titles" title="Type in title search term">
+              </li>
+              <li class="icon">
+                <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
-    
-    
     <section class="our-story-wrapper">
         <article class="numbers-row">
             <div class="numbers">
                 <h2>
-                    5000<br>
                     People employed
+                    5000<br>
                 </h2>
             </div>  
         <div class="numbers">
@@ -33,8 +69,8 @@
             </h2>
         </div>
          <div class="numbers">
-            <h2>
                 100<br>
+            <h2>
                 News per day
             </h2>
          </div>
@@ -58,8 +94,8 @@
                 ensuring our readers are informed and equipped to understand the forces driving progress.</p>
             
             <p>
-                As we venture into the realm of bytes and algorithms, we recognize the magnitude of the issues at hand. 
                 We strive to illuminate the profound impact of technological developments, addressing not only the opportunities 
+                As we venture into the realm of bytes and algorithms, we recognize the magnitude of the issues at hand. 
                 but also the ethical considerations that accompany them. Our dedication to presenting a comprehensive narrative 
                 remains unwavering, even in the face of the myriad challenges that emerge on the tech horizon.
                 In the spirit of transparency and journalistic integrity, we acknowledge that the tech landscape is not without 
@@ -77,25 +113,6 @@
           alt="picture of a person reading a newspaper"
         />    
     </div>
-                    <h5>About you</h5>
-                    <ul>
-                        <li><a href="#">Customers</a></li>
-                        <li><a href="#">Latest</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h5>Address</h5>
-                    <p>Google street 2,<br>526 42 Googleville</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p class="text-right">&copy; 2022 Google News</p>
-                </div>
-            </div>
-        </div>
-    </footer>    
-    
     <section id="card-wrapper">
         <h3>Meet the team</h3>
             <section class="cards-row">            
@@ -145,42 +162,33 @@
                     <img src="assets/img/woman-picture.jpg" alt="portrait picture of a smiling female wearing a white t-shirt and glasses">
                     <p class="p-bold">Melissa Humble</p><p class="p-zero">CEO</p>
                 </section>
-                <section class="card">
                 <img src="assets/img/man-picture.jpg" alt="portrait picture of a smiling man wearing a green t-shirt">
+                <section class="card">
                 <p class="p-bold">Tomas Glad</p><p class="p-zero">CFO</p>
                 </section>
             </section> 
     </section>
-    
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">What we do</a></li>
-                        <li><a href="#">Who we are</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h5>About you</h5>
-                    <ul>
-                        <li><a href="#">Customers</a></li>
-                        <li><a href="#">Latest</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h5>Address</h5>
-                    <p>Google street 2,<br>526 42 Googleville</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p class="text-right">&copy; 2022 Google News</p>
-                </div>
-            </div>
-        </div>
-    </footer> 
 
+    <section class="footer">
+        <footer>
+          <div class="footer-section">
+              <h5>About us</h5>
+              <a href="#">What we do</a>
+              <a href="whoarewe.html">Who we are</a>
+          </div>
+          <div class="footer-section">
+              <h5>About you</h5>
+              <a href="contact.html">Customers</a>
+              <a href="index.html">Latest</a>
+          </div>
+          <div class="footer-section">
+              <h5>Address</h5>
+              <p>Google street 2,<br>526 42 Googleville</p>
+          </div>
+          <div class="footer-section">
+              <p>© 2022 Google News</p>
+          </div>
+        </footer>
+        </section>
 </body>
 </html>
