@@ -508,6 +508,55 @@ article#article.show .info .date-author {
 }
 
 /*Articles SASS file*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  border-top: 1px solid #CCC;
+}
+.footer .footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer .footer-section:last-child {
+  align-items: flex-end;
+}
+.footer .footer-section:last-child p {
+  text-align: right;
+}
+.footer .footer-section h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.footer .footer-section a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .footer-section {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .footer .footer-section:last-child {
+    margin-bottom: 0;
+  }
+}
+/*Footer SASS file*/
 html {
   width: 100%;
   margin: 0;
@@ -562,6 +611,7 @@ body {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 /* Cards */
 #card-wrapper {
   display: flex;
@@ -693,4 +743,6 @@ body {
   font-size: 0.9em;
 }
 
+=======
+>>>>>>> Footer
 /*# sourceMappingURL=style.css.map */
