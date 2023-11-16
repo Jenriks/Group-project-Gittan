@@ -128,6 +128,15 @@ h2 {
   line-height: 1.5625rem;
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 25px;
+  line-height: 1.5625rem;
+}
+
 /*------LINKS-----*/
 a {
   color: #2a5db0;
@@ -582,6 +591,40 @@ body {
 
 .our-story {
   padding: 5% 0%;
+}
+
+/* Cards */
+#card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin: 5% 0%;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p-bold {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 25px;
+  line-height: 1.5625rem;
+  margin-top: 10px;
+}
+
+.p-zero {
+  margin: 0;
 }
 
 /*------FOOTER-----*/

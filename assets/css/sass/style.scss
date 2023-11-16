@@ -68,6 +68,41 @@ body {
   overflow: hidden;
 }
 
+/* Cards */
+
+#card-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	margin: 5% 0%;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.p-bold {
+	font: {
+		family:$primary-font;
+		   weight: bold;
+	  }
+		@include size(20, 25);
+	margin-top: 10px;
+}
+
+.p-zero {
+	margin: 0;
+}
+
+
 /* Our story section */
 .our-story-wrapper {
 	display: flex;
