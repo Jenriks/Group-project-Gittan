@@ -8,6 +8,8 @@ Version: 1.0
 @import "fonts.scss"; /*Fonts SASS file*/
 @import "header.scss"; /*Header SASS file*/
 @import "articles.scss"; /*Articles SASS file*/
+@import "footer.scss"; /*Footer SASS file*/
+
 
 html {
   width: 100%;
@@ -16,7 +18,6 @@ html {
 }
 
 body {
-  width: 90%;
   overflow-x: hidden;
   display: block;
   clear: both;
@@ -49,6 +50,22 @@ body {
 		min-height:100%;
 	}
 }
+
+
+/*------Hero picture-----*/
+.full-width-pic {
+	max-width: 100%;
+	height: 25%;
+  }
+
+.main-wrapper {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*------Hero picture-----*/
+
+
 
 #content {
   width: 100%;
@@ -104,8 +121,93 @@ body {
 	}
   }
 
+/* Our story section */
+.our-story-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 2% 5%;
+}
+.numbers-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 0%;
+}
+.numbers {
+	padding-top: 1%;
+	padding-right: 1%;
+}
+.our-story {
+	padding: 5% 0%;
+}
+
+/* MAP-section */
+.map-wrapper {
+display: flex;
+flex-direction: column;
+padding: 2% 5% 3% 5%;
+}
+.info-cards {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+padding: 2% 0% 5% 0%;
+}
+.google-maps {
+	width: 100%;
+	max-width: auto;
+	align-self: fit;
+}
+
 /*------FOOTER-----*/
 
 #footer {
 	width: 100%;
-}
+	background:white;
+	color:black
+	padding 20px 0;
+	border-top:before 1px solid $light-grey;
+  
+	.container {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  max-width: 1160px; 
+	  margin: 0 auto;
+	  padding: 0 10px;
+  
+	  .column {
+		display: flex;
+		flex-direction: column;
+  
+		h1 {
+		  margin: 0 0 10px 0;
+		  font-size: 1em;
+		}
+  
+		ul {
+		  list-style: none;
+		  padding: 0;
+		  margin: 0;
+  
+		  li {
+			margin: 5px 0;
+  
+			a {
+			  text-decoration: none;
+			  font-size: 0.9em;
+  
+			  &:hover {
+				color: darkblue;
+			  }
+			}
+		  }
+		}
+	  }
+  
+	  .copyright {
+		text-align: right;
+		font-size: 0.9em;
+	  }
+	}
+  }

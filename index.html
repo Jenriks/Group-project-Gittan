@@ -18,10 +18,10 @@
         <nav id="menu" class="menu">
           <ul>
             <li>
-              <a href="/Offerings">What we do - a test</a>
+              <a href="/Offerings">What we do</a>
             </li>
             <li>
-              <a href="/About-us">Who we are</a>
+              <a href="whoarewe.html">Who we are</a>
             </li>
             <li>
               <a href="/Customers">Customers</a>
@@ -33,10 +33,10 @@
               <a href="/Investor-relations">IR</a>
             </li>
             <li>
-              <a href="/Latest" class="current">Latest</a>
+              <a href="index.html" class="current">Latest</a>
             </li>
             <li>
-              <a href="/Contact">Contact</a>
+              <a href="contact.html">Contact</a>
             </li>
             <li class="search">
               <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search titles" title="Type in title search term">
@@ -48,17 +48,48 @@
         </nav>
       </header>
 
-      <section id="content"></content>
+      <section id="content">  </section>
 
-      <footer>
-        
+      <footer class="footer">
+        <div class="footer-section">
+            <h5>About us</h5>
+            <p>
+            <a href="#">What we do</a>
+            <a href="whoarewe.html">Who we are</a>
+          </p>
+        </div>
+        <div class="footer-section">
+            <h5>About you</h5>
+            <p>
+            <a href="contact.html">Customers</a>
+            <a href="index.html">Latest</a>
+          </p>
+        </div>
+        <div class="footer-section">
+            <h5>Address</h5>
+            <p>
+            Google street 2,<br/>
+            526 42 Googleville
+          </p>
+        </div>
+        <div class="footer-section">
+            <a>© 2022 Google News</a>
+        </div>
+      </footer>
+    
+      
         <!--Wather widget-->
         <script> !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');</script>
         <!--JS Scripts-->
         <script type="text/javascript" src="./assets/js/menu.js"></script> <!--Mobile menu JS-->
-        <script type="text/javascript" src="./assets/js/request.js"></script> <!--JSON API request JS-->
+        <script type="text/javascript" src="./assets/js/request.js"></script> <!--JSON API request JS-->     
 
-      </footer>
+      
+
     </section>
   </body>
+
+  
+  
+
 </html>
