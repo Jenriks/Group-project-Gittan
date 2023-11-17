@@ -570,6 +570,15 @@ body {
   gap: 1rem;
 }
 
+.icons svg {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icons svg:hover {
+  transform: scale(1.1);
+}
+
 .google-maps {
   width: 100%;
   max-width: auto;
