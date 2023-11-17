@@ -556,6 +556,12 @@ body {
   padding: 2% 0% 5% 0%;
 }
 
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .google-maps {
   width: 100%;
   max-width: auto;
