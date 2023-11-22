@@ -121,7 +121,6 @@
         /*Breakpoint for when menu can't fit the screen anymore*/
         @media screen and (max-width: 1190px) {
           &.icon {
-            float: right;
             display: inline-block !important;
             position: absolute;
             right: 5%;

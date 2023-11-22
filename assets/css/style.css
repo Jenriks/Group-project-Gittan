@@ -294,7 +294,6 @@ a:hover, a:active, a:visited {
 }
 @media screen and (max-width: 1190px) {
   #header nav#menu ul li.icon {
-    float: right;
     display: inline-block !important;
     position: absolute;
     right: 5%;
@@ -704,6 +703,10 @@ body {
   flex-direction: column;
   padding-top: 2%;
   padding-bottom: 5%;
+}
+
+.map-wrapper h1 {
+  font-family: "Playfair Display", serif;
 }
 
 .info-cards {
