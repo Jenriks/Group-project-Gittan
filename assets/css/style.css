@@ -688,6 +688,14 @@ body {
   padding: 5% 0%;
 }
 
+.our-story h3 {
+  margin-bottom: 1%;
+}
+
+.our-story p {
+  margin-top: 1.5%;
+}
+
 /* MAP-section */
 .map-wrapper {
   display: flex;
@@ -732,8 +740,6 @@ body {
   align-self: fit;
 }
 
-.our-story h3 {
-  margin-bottom: 1%;
 /*------FOOTER-----*/
 #footer {
   width: 100%;
