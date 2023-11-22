@@ -1,4 +1,6 @@
-    const socialMediaIcons = document.querySelectorAll('.icons svg');
+/* Script for popup when clicking social media icon */
+
+const socialMediaIcons = document.querySelectorAll('.icons svg');
 
     function openSocialMediaProfile(profile) {
         switch (profile) {
@@ -8,17 +10,17 @@
                 return 'https://www.linkedin.com/in/your_linkedin_profile';
             case 'facebook':
                 return 'https://www.facebook.com/your_facebook_page';
-            // Add more social media profiles as needed
+            
             default:
                 return '';
         }
     }
 
     function handleIconClick(event) {
-        const icon = event.currentTarget; // Use currentTarget for SVG elements
-        const profile = icon.getAttribute('alt').toLowerCase(); // Assuming alt text matches the social media platform
+        const icon = event.currentTarget; 
+        const profile = icon.getAttribute('alt').toLowerCase(); 
 
-        // Ask for confirmation
+        /* Ask for confirmation */
         const userConfirmed = window.confirm(`Do you want to go to the ${profile} profile?`);
 
         if (userConfirmed) {
@@ -31,7 +33,6 @@
         }
     }
 
-    // Attach click event listeners to each social media icon (SVG)
     socialMediaIcons.forEach(icon => {
         icon.addEventListener('click', handleIconClick);
     });
