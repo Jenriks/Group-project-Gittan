@@ -512,7 +512,10 @@ article#article.show .info .date-author {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 20px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: #FFF;
   font-family: "Open Sans", sans-serif;
   border-top: 1px solid #767676;
