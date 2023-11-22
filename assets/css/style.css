@@ -163,7 +163,7 @@ a:hover, a:active, a:visited {
   overflow: hidden;
   background: white;
   display: block;
-  padding-top: 10px;
+  padding-top: 2%;
   /*Breakpoint for when menu can't fit the screen anymore*/
   /*#header h1*/
   /*Close nav#menu*/
