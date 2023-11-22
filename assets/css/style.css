@@ -190,8 +190,8 @@ a:hover, a:active, a:visited {
 #header nav#menu {
   display: block;
   width: 90%;
-  border-bottom: 1px solid #767676;
-  border-top: 1px solid #767676;
+  border-bottom: 1px solid #747474;
+  border-top: 1px solid #747474;
   padding-left: 5%;
   padding-right: 5%;
   /*Breakpoint for when menu can't fit the screen anymore*/
@@ -228,7 +228,7 @@ a:hover, a:active, a:visited {
     display: block !important;
     text-align: left;
     padding: 1% 0;
-    border-top: 1px solid #767676;
+    border-top: 1px solid #747474;
     margin: 0;
     margin-left: -5%;
     padding-left: 5%;
@@ -276,7 +276,7 @@ a:hover, a:active, a:visited {
   background-size: 15px auto;
   box-sizing: border-box;
   padding: 5px 5px 5px 30px;
-  border: 1px solid #767676;
+  border: 1px solid #747474;
   margin: 12px 0;
   box-shadow: 0 0 0 transparent;
   font-family: "Playfair Display", serif;
@@ -371,7 +371,7 @@ article#article.article-1 {
   width: 32%;
 }
 article#article.article-2, article#article.article-3, article#article.article-4 {
-  border-top: 1px solid #767676;
+  border-top: 1px solid #747474;
   padding-top: 10px;
   margin-top: 0;
   height: 86px;
@@ -515,7 +515,7 @@ article#article.show .info .date-author {
   padding: 20px;
   background-color: #FFF;
   font-family: "Open Sans", sans-serif;
-  border-top: 1px solid #767676;
+  border-top: 1px solid #747474;
 }
 .footer .footer-section {
   display: flex;
@@ -617,7 +617,7 @@ body {
   flex-direction: column;
   gap: 2%;
   padding: 2% 5%;
-  border-top: 1px solid #767676;
+  border-top: 1px solid #747474;
 }
 
 .cards-row {
@@ -705,7 +705,7 @@ body {
   width: 100%;
   background: white;
   color: black padding 20px 0;
-  border-top: before 1px solid #767676;
+  border-top: before 1px solid #747474;
 }
 #footer .container {
   display: flex;
