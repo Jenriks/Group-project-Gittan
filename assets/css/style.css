@@ -128,6 +128,16 @@ h2 {
   line-height: 1.5625rem;
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 25px;
+  line-height: 1.5625rem;
+  margin-bottom: 3.5%;
+}
+
 /*------LINKS-----*/
 a {
   color: #2a5db0;
@@ -180,8 +190,8 @@ a:hover, a:active, a:visited {
 #header nav#menu {
   display: block;
   width: 90%;
-  border-bottom: 1px solid #CCC;
-  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #767676;
+  border-top: 1px solid #767676;
   padding-left: 5%;
   padding-right: 5%;
   /*Breakpoint for when menu can't fit the screen anymore*/
@@ -218,7 +228,7 @@ a:hover, a:active, a:visited {
     display: block !important;
     text-align: left;
     padding: 1% 0;
-    border-top: 1px solid #CCC;
+    border-top: 1px solid #767676;
     margin: 0;
     margin-left: -5%;
     padding-left: 5%;
@@ -266,7 +276,7 @@ a:hover, a:active, a:visited {
   background-size: 15px auto;
   box-sizing: border-box;
   padding: 5px 5px 5px 30px;
-  border: 1px solid #CCC;
+  border: 1px solid #767676;
   margin: 12px 0;
   box-shadow: 0 0 0 transparent;
   font-family: "Playfair Display", serif;
@@ -361,7 +371,7 @@ article#article.article-1 {
   width: 32%;
 }
 article#article.article-2, article#article.article-3, article#article.article-4 {
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #767676;
   padding-top: 10px;
   margin-top: 0;
   height: 86px;
@@ -505,7 +515,7 @@ article#article.show .info .date-author {
   padding: 20px;
   background-color: #FFF;
   font-family: "Open Sans", sans-serif;
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #767676;
 }
 .footer .footer-section {
   display: flex;
@@ -554,7 +564,6 @@ html {
 }
 
 body {
-  width: 90%;
   overflow-x: hidden;
   display: block;
   clear: both;
@@ -583,11 +592,195 @@ body {
     min-height: 100%;
   }
 }
+/*------Hero picture-----*/
+.full-width-pic {
+  max-width: 100%;
+  height: 25%;
+}
+
+.main-wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*------Hero picture-----*/
 #content {
   width: 100%;
   margin: 0 auto;
   display: block;
   overflow: hidden;
+}
+
+/* Cards */
+#card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  padding: 2% 5%;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 14%;
+}
+
+.p-bold {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 25px;
+  line-height: 1.5625rem;
+  margin-top: 10px;
+}
+
+.p-zero {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 380px) {
+  .card {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .card img {
+    width: 100%;
+  }
+}
+/* Our story section */
+.our-story-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 5%;
+}
+
+.numbers-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0%;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  padding-right: 1%;
+}
+
+.numbers p {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  line-height: 1;
+}
+
+.our-story {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0%;
+}
+
+.our-story h3 {
+  margin-bottom: 1%;
+}
+
+.our-story p {
+  margin-top: 1.5%;
+}
+
+/* MAP-section */
+.map-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 5% 3% 5%;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 3% 0% 6% 0%;
+}
+
+.info-card-text p {
+  margin: 0;
+}
+
+.info-card-text p:first-of-type {
+  margin-top: 1.5rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icons svg {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icons svg:hover {
+  transform: scale(1.1);
+}
+
+.google-maps {
+  width: 100%;
+  max-width: auto;
+  align-self: fit;
+}
+
+/*------FOOTER-----*/
+#footer {
+  width: 100%;
+  background: white;
+  color: black padding 20px 0;
+  border-top: before 1px solid #767676;
+}
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+#footer .container .column {
+  display: flex;
+  flex-direction: column;
+}
+#footer .container .column h1 {
+  margin: 0 0 10px 0;
+  font-size: 1em;
+}
+#footer .container .column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer .container .column ul li {
+  margin: 5px 0;
+}
+#footer .container .column ul li a {
+  text-decoration: none;
+  font-size: 0.9em;
+}
+#footer .container .column ul li a:hover {
+  color: darkblue;
+}
+#footer .container .copyright {
+  text-align: right;
+  font-size: 0.9em;
 }
 
 /*# sourceMappingURL=style.css.map */

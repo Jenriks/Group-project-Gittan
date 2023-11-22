@@ -71,6 +71,15 @@ h2 {
 	@include size(20, 25);
 }
 
+h3 {
+  font: {
+    family:$primary-font;
+   	weight: bold;
+  }
+	@include size(20, 25);
+  margin-bottom: 3.5%;
+}
+
 /*------LINKS-----*/
 
 a {
