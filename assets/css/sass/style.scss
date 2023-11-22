@@ -86,19 +86,14 @@ body {
 .cards-row {
     display: flex;
     justify-content: space-between;
-	flex-wrap: wrap;
-    gap: 2%;
+	gap: 2%;
 }
 
-.cards {
+.card {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 14%;
-}
-
-.cards img {
-	width: 14%;
+	flex: 1 1 14%;
 }
 
 .p-bold {
