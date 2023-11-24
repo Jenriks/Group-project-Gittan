@@ -268,7 +268,7 @@ a:hover, a:active, a:visited {
   display: none;
 }
 #header nav#menu ul li.search input#searchInput {
-  background-image: url("../searchicon.png");
+  background-image: url("/assets/img/searchicon.png");
   background-position: 7px 10px;
   background-repeat: no-repeat;
   width: 160px;
