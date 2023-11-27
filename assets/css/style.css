@@ -150,7 +150,7 @@ a {
   /*Taken fomr mixin.scss*/
   cursor: pointer;
 }
-a:hover, a:active, a:visited {
+a:hover, a:active {
   color: #16315e;
   text-decoration: none;
 }
